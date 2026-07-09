@@ -1,0 +1,72 @@
+.mise_en_page {
+	display: grid;
+	grid-template-columns: 2fr 1fr 2fr ;
+    	grid-template-rows:2fr 1fr 2fr ;
+	height: 100%;	
+}
+
+.conteneur {
+	margin:10px;
+	display: grid;
+	height: 100%;
+	grid-template-columns: 1fr 1fr 1fr ;
+	grid-template-rows: 1fr 1fr;
+	align-items: center;
+	background-color: aliceblue;
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 5px;
+    
+}
+
+
+.box1, .box2, .box3, .box4 {
+	margin:10px;
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 10px;
+	background-color: aliceblue;
+
+	
+
+}
+.box1 {
+	grid-column-start: 1;
+	grid-column-end: 4;
+}
+
+.box2 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+.box4 {
+	grid-column-start: 1;
+	grid-column-end: 4;
+	font-weight: bold;
+}
+
+html {
+	background-color: rgb(178, 166, 223);
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6, .loupe1, .loupe2, .loupe3, .loupe4, .loupe5, .menace{
+	position: absolute;
+}
+.loupe1, .loupe2, .loupe3, .loupe4, .loupe5, .autel, .menace{
+	opacity: 0;
+}
+
+.autel {
+	height: 100%;
+	width: 100%;
+	max-height: fit-content;
+}
+.img3 {
+	opacity: 0;
+}
+
+.img5 {
+	background: none;
+	border: 0cm;
+}
